@@ -1,11 +1,12 @@
 package main
 
 import (
+	"fmt"
 	"math"
 	"strings"
 )
 
 func main() {
-	math.Floor(2.75)
-	strings.Title("mosquito bites")
+	fmt.Println(math.Floor(2.75))
+	fmt.Println(strings.Title("mosquito bites"))
 }
