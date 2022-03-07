@@ -8,8 +8,7 @@ import (
 )
 
 func main() {
-	var half, marathon float64
-	half, marathon = 13.1, 26.2
+	half, marathon := 13.1, 26.2
 	hero := "Deena Kastor"
 	hero2 := "paula radcliffe"
 
