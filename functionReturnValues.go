@@ -11,6 +11,7 @@ func main() {
 	half, marathon := 13.1, 26.2
 	hero := "Deena Kastor"
 	hero2 := "paula radcliffe"
+	pizza := []int{1, 2, 3}
 
 	fmt.Println(math.Floor(half))
 	fmt.Println(strings.Title(hero2))
@@ -20,4 +21,5 @@ func main() {
 	fmt.Println(reflect.TypeOf("stringggg"))
 	fmt.Println(reflect.TypeOf(3.1415))
 	fmt.Println(reflect.TypeOf(true))
+	fmt.Println(pizza[0])
 }
